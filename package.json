@@ -1,0 +1,85 @@
+{
+	"name": "decamelcase-keys",
+	"version": "1.0.0",
+	"description": "Convert object keys to snake case",
+	"main": "index.js",
+	"homepage": "https://github.com/mahovich/decamelcase-keys",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:mahovich/decamelcase-keys.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mahovich/decamelcase-keys/issues"
+	},
+	"author": "mahovich",
+	"license": "MIT",
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd",
+		"bench": "node bench/bench.js"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"obj",
+		"object",
+		"key",
+		"keys",
+		"iterate",
+		"deep",
+		"recurse",
+		"recursive",
+		"decamelize",
+		"decamelcase",
+		"camelcase",
+		"camel-case",
+		"lowercase",
+		"lower-case",
+		"snakecase",
+		"snake-case",
+		"kebabcase",
+		"kebab-case",
+		"case",
+		"dash",
+		"hyphen",
+		"string",
+		"text",
+		"convert",
+		"snakecase-keys-object",
+		"snake-keys",
+		"snakecase-keys",
+		"changecase-objects",
+		"ninjapiratica-case-converter",
+		"js-convert-case",
+		"decamelize-keys",
+		"normalize-object",
+		"change-case-object",
+		"convert-keys"
+	],
+	"dependencies": {
+		"decamelize": "^4.0.0",
+		"map-obj": "^4.1.0",
+		"quick-lru": "^4.0.1"
+	},
+	"devDependencies": {
+		"ava": "^3.1.0",
+		"benchmarkify": "^2.1.2",
+		"tsd": "^0.11.0",
+		"xo": "^0.25.3"
+	},
+	"xo": {
+		"overrides": [
+			{
+				"files": "bench/bench.js",
+				"rules": {
+					"import/no-unresolved": "off",
+					"import/no-extraneous-dependencies": "off"
+				}
+			}
+		]
+	}
+}
