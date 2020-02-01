@@ -1,4 +1,4 @@
-# decamelcase-keys &middot; [![Build Status](https://travis-ci.org/mahovich/decamelcase-keys.svg?branch=master)](https://travis-ci.org/mahovich/decamelcase-keys) [![npm version](https://img.shields.io/npm/v/decamelcase-keys.svg?style=flat)](https://www.npmjs.com/package/decamelcase-keys)
+# decamelcase-keys &middot; [![Build Status](https://travis-ci.org/mahovich/decamelcase-keys.svg?branch=master)](https://travis-ci.org/mahovich/decamelcase-keys) [![npm version](https://img.shields.io/npm/v/decamelcase-keys.svg?style=flat)](https://www.npmjs.com/package/decamelcase-keys) [![minzipped size](https://img.shields.io/bundlephobia/minzip/decamelcase-keys.svg?label=gzip%20size)](https://bundlephobia.com/result?p=decamelcase-keys)
 
 > Convert object keys from camelCase/PascalCase to snake_case or into a lowercased one with a custom separator.
 
