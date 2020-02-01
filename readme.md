@@ -11,8 +11,8 @@ Distinctive features from similar packages:
 
 ## Install
 
-```
-$ npm i decamelcase-keys
+```bash
+npm i decamelcase-keys
 ```
 
 ## Usage
