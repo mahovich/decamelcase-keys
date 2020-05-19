@@ -122,3 +122,21 @@ test('different separator option values', t => {
 		{p_foo_bar: true, p_obj: {p_two: false, p_arr: [{p_three_four: true}]}}
 	);
 });
+
+test('handle array of non-objects', t => {
+	const input = ['fooBar', 'barFoo'];
+
+	t.deepEqual(
+		decamelcaseKeys(input),
+		input
+	);
+});
+
+test('handle array of non-objects with `deep` option', t => {
+	const input = ['fooBar', 'barFoo'];
+
+	t.deepEqual(
+		decamelcaseKeys(input, {deep: true}),
+		input
+	);
+});
